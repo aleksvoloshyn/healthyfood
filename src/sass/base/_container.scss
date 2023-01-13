@@ -1,12 +1,14 @@
+$container-background: #ffffff;
 .container {
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
+  background-color: $container-background;
 
   @media screen and (min-width: $tablet) {
     width: 700px;
   }
 
   @media screen and (min-width: $desktop) {
-    width: 1050px;
+    width: 1600px;
   }
 }

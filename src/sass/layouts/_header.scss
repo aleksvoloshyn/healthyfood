@@ -1,4 +1,21 @@
 .page-header {
-  font-size: 20px;
-  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 227px;
+  padding-right: 227px;
+}
+
+.page-header__logo {
+  margin-right: 244px;
+}
+
+// Header - navigation
+.page-header__nav {
+  margin-right: 274px;
+
+  .page-header__navlist {
+    display: flex;
+  }
 }

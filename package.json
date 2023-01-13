@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "parcel template",
   "main": "js/main.js",
-  "homepage": "https://aleksvoloshyn/parcel-template.git",
+  "homepage": "https://aleksvoloshyn/healthyfood.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /myParcel/",
-    "predeploy": "npm run build -- --public-url /parcel-template/",
+    "build": "parcel build src/*.html --public-url /healthyfood/",
+    "predeploy": "npm run build -- --public-url /healthyfood/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aleksvoloshyn/parcel-template.git"
+    "url": "git+https://https://github.com/aleksvoloshyn/healthyfood.git"
   },
   "author": "alexx.voloshyn@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aleksvoloshyn/parcel-template.git/issues"
+    "url": "https://https://github.com/aleksvoloshyn/healthyfood.git/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
