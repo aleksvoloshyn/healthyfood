@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap');
 @import './base/main';
 @import './comonents/main';
 @import './layouts/main';
 
 $background: #e5e5e5;
+$fontcolor-main: #0a1902;
+$accent-color: #59be29;
 
 body {
   background-color: $background;
+  font-family: 'Baloo Chettan 2', cursive;
+  color: $fontcolor-main;
 }
