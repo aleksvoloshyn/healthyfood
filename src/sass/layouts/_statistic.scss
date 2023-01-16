@@ -1,0 +1,52 @@
+.page-hero {
+  padding-left: 227px;
+  margin-bottom: 120px;
+  display: flex;
+}
+
+// freshfruit4you
+.page-hero__abouttext {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.page-header__slogan {
+  width: 522px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: $accent-color;
+  font-size: 121.108px;
+  font-weight: 600;
+  line-height: 90%;
+}
+
+.page-header__text {
+  width: 552px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+// page-hero__imageblock
+.page-hero__imageblock {
+  position: relative;
+}
+.page-hero__quaritschimg {
+  position: absolute;
+  top: 98px;
+  left: 117px;
+}
+
+.page-hero__antleft {
+  position: absolute;
+  top: 281px;
+  left: 187px;
+}
+.page-hero__antright {
+  position: absolute;
+  top: 104px;
+  left: 579px;
+}
