@@ -21,16 +21,16 @@
   }
 }
 
-.button-sighnup {
+.button--sighnup {
   @extend %button;
 }
-.button-addtocart {
+.button--addtocart {
   @extend %button;
   width: 179px;
   height: 55px;
 }
-.button-learnmore {
-  @extend .button-addtocart;
+.button--learnmore {
+  @extend .button--addtocart;
   background: #ffffff;
   color: #59be29;
   border: 1px solid rgba(89, 190, 41, 0.3);
