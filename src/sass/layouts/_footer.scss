@@ -2,4 +2,68 @@
   display: flex;
   padding-left: 227px;
   padding-right: 109px;
+
+  &__commoninfo {
+    margin-right: 151px;
+  }
+
+  &__logo {
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    width: 339px;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+
+  &__companyinfo {
+    margin-right: 85px;
+  }
+  &__news {
+    margin-right: 109px;
+  }
+
+  // menu title
+  &__title {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  // menuitem (li)
+  &__item {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  &__socialitems {
+    display: flex;
+    gap: 25px;
+  }
+
+  // li with svg icons
+  &__socialitem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.05);
+  }
+
+  &__sociallink {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__svgfile {
+    width: 20px;
+    height: 20px;
+  }
 }

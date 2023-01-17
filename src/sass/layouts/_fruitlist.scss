@@ -83,4 +83,12 @@
   &:not(:nth-child(n + 4)) {
     border-bottom: 1px solid rgba(89, 190, 41, 0.25);
   }
+
+  transition-property: transform;
+
+  &:hover {
+    transform: scale(1.1);
+    transition-duration: 1500ms;
+    transition-timing-function: ease-in-out;
+  }
 }
