@@ -1,7 +1,10 @@
 $container-background: #ffffff;
 .container {
+  // display: flex;
+  // flex-direction: column;
   width: 320px;
   margin: 0 auto;
+  padding-bottom: 27px;
   background-color: $container-background;
 
   @media screen and (min-width: $tablet) {
